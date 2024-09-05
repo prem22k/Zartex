@@ -1,5 +1,5 @@
 document.getElementById('registerForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+    
 
     const password = document.getElementById('reg-password');
         password.value="";
