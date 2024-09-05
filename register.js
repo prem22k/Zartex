@@ -1,8 +1,10 @@
 document.getElementById('registerForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const password = document.getElementById('reg-password').value;
+    const password = document.getElementById('reg-password');
+        password.value="";
     const confirmPassword = document.getElementById('confirm-password').value;
+    confirmPassword.value="";
 
     if (password !== confirmPassword) {
         alert("Passwords do not match!");
@@ -15,3 +17,4 @@ document.getElementById('registerForm').addEventListener('submit', function(even
     // Redirect to the login page or directly to the dashboard
     window.location.href = 'dash.html';  // Redirect to the student dashboard after successful registration
 });
+
