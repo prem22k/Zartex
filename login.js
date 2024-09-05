@@ -33,3 +33,17 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         window.location.href = 'index2.html';  // Redirect to the parent dashboard
     }
 });
+
+
+
+async function sendregister(e){
+    e.preventDefault();
+    let f=document.getElementById("registerForm");
+    let formData = new FormData(f);
+    let v=await fetch("http://localhost:3000/api/users", {
+        method:"POST",
+        body:formData
+    });
+    let r=await v.json();
+    console.log(r);
+}
