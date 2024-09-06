@@ -14,3 +14,4 @@ let form=document.getElementById('registerForm');
     window.location.href = 'dash.html';  // Redirect to the student dashboard after successful registration
 });
 
+
