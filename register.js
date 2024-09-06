@@ -1,17 +1,10 @@
 let form=document.getElementById('registerForm');
-    form.addEventListener('submit', function(event) {
+    form.addEventListener('submit', async function(event) {
 
-    event.preventDefault(); // Prevent the default form submission
+    // event.preventDefault(); // Prevent the default form submission
 
     const password = document.getElementById('reg-password');
-        password.value="";
     const confirmPassword = document.getElementById('confirm-password').value;
-    confirmPassword.value="";
-
-    if (password !== confirmPassword) {
-        alert("Passwords do not match!");
-        return;
-    }
 
     const res = document.getElementById("res");
 
