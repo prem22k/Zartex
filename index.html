@@ -52,10 +52,16 @@
                 <button class="close-btn" onclick="closeForm()">×</button>
             </div>
             <form id="registerForm" onsubmit="sendregister()">
+                
+                <input value="XYZ" type="text" name="name" style="display:none;">
+                
                 <div class="input-box">
-                    <input type="email" placeholder="E-mail" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
                     <i class="material-symbols-outlined">person</i>
                 </div>
+
+                <input value="1" type="text" name="check" style="display:none;">
+                
                 <div class="input-box">
                     <input type="password" placeholder="Password" required>
                     <i class="material-symbols-outlined">lock</i>
