@@ -29,4 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
             // Optional: Handle error (e.g., show an error message)
         }
     });
-}
+});
