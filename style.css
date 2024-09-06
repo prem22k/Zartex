@@ -57,9 +57,7 @@ body {
     margin-left: 15px;
     display: none;
 }
-.class-card, course-info img{
-    border-radius:35%;
-}
+
 
 .sidebar:hover .logo h2 {
     display: block;
@@ -441,6 +439,7 @@ body {
 .course-info img {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
 .course-details h3 {
@@ -559,6 +558,7 @@ body {
 .class-card img {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
 .class-details h3 {
