@@ -57,6 +57,9 @@ body {
     margin-left: 15px;
     display: none;
 }
+.class-card, course-info img{
+    border-radius:35%;
+}
 
 .sidebar:hover .logo h2 {
     display: block;
