@@ -4,7 +4,7 @@ let form=document.getElementById('registerForm');
     event.preventDefault(); // Prevent the default form submission
 
     const password = document.getElementById('reg-password');
-    const confirmPassword = document.getElementById('confirm-password').value;
+    const confirmPassword = document.getElementById('confirm-password');
         
     
     // Handle the registration logic (e.g., saving data, redirecting, etc.)
